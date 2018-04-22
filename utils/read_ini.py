@@ -21,6 +21,6 @@ class ReadIni(object):
 
 if __name__ == '__main__':
     file_path = "/Users/lvjing/PycharmProjects/AppiumForPython/config/local_element.ini"
-    read_ini = ReadIni(file_path)
+    read_ini = ReadIni(file_path, )
     print(read_ini.get_value("login_element", "username"))
     print(read_ini.get_value("xxx", "xxx"))
